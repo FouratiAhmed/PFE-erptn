@@ -1,0 +1,29 @@
+{
+  "custom_fields": [
+    {
+      "creation": "2020-10-19 11:00:05.000000",
+      "modified": "2020-10-19 11:00:06.000000",
+      "dt": "Salary Slip",
+      "insert_after": "base_gross_year_to_date",
+      "fieldname": "social_salary",
+      "fieldtype": "Float",
+      "read_only": 1,
+      "label": "Annual net social salary "
+    },
+   {
+      "creation": "2020-10-19 11:00:05.000000",
+      "modified": "2020-10-19 11:00:06.000000",
+      "dt": "Salary Slip",
+      "insert_after": "social_salary",
+      "fieldname": "tax_salary",
+      "fieldtype": "Float",
+      "read_only": 1,
+      "label": "Annual net taxable salary"
+    }
+
+   ],
+   "custom_perms": [],
+  "doctype": "Salary Slip",
+   "property_setters": [],
+   "sync_on_migrate": 1
+}
